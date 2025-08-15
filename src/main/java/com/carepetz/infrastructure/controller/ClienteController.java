@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
  * Adaptador de entrada da arquitetura hexagonal
  */
 @RestController
-@RequestMapping("/clientes")
+@RequestMapping("/api/clientes")
 @CrossOrigin(origins = "http://localhost:4200")
 @Tag(name = "Clientes", description = "API para gerenciamento de clientes")
 public class ClienteController {
